@@ -50,7 +50,7 @@ export class AppComponent {
   onAddServer() {
     this.servers.push({
       instanceType: 'small',
-      name: 'New Server',
+      name: 'Test Server',
       status: 'stable',
       started: new Date(15, 1, 2017)
     });
